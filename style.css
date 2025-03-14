@@ -266,6 +266,10 @@ section {
     flex-direction: column;
 }
 
+#about .about-details-container {
+    margin-top: 6rem; 
+}
+
 .about-containers, .about-details-container {
     display: flex; 
 }
@@ -305,9 +309,16 @@ section {
 }
 
 .experience-details-container {
-    display: flex;
+    display: 
     justify-content: center;
     flex-direction: column;
+}
+
+#experience .article-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
 }
 
 .article-container {
