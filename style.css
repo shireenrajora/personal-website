@@ -9,6 +9,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
 }
 
 html {
@@ -283,10 +284,10 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: transparent;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border-color: black;
     text-align: center;
 }
 
@@ -348,8 +349,8 @@ article .icon {
 }
 
 .color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    border-color: black;
+    background: transparent;
 }
 
 .project-img {
@@ -365,7 +366,7 @@ article .icon {
 
 .project-btn {
     color: black;
-    border-color: rgb(163, 163, 163);
+    border-color: black;
 }
 
 /* CONTACT */
@@ -382,7 +383,7 @@ article .icon {
     justify-content: center;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border-color: black;
     background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
