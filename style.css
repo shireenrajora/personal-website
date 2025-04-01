@@ -310,7 +310,7 @@ section {
 }
 
 .experience-details-container {
-    display: 
+    display: center;
     justify-content: center;
     flex-direction: column;
 }
